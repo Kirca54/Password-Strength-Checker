@@ -91,7 +91,7 @@ function displayResults(score, criteria) {
     if (criteria.hasSimplePattern) feedbackMessages.push('Avoid simple patterns.');
 
     // Determine strength label based on score
-    let strengthLabel = '';
+    let strengthLabel;
     if (score <= 4) {
         strengthLabel = 'Weak';
     } else if (score <= 7) {
